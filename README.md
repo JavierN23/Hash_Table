@@ -1,6 +1,7 @@
 # Hash_Table
 
 Write a code in C++/Python to improve the search operation efficiency O(N) to $O(1).
+
 C++:
   
     #include <iostream>

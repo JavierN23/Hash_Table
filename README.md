@@ -66,6 +66,9 @@ Write a code generate hash value of your name:
     return 0;
     }
 
-With the help of a figure, explain the problem that occured due to introducing a tombstone to mark the deleted cell.
+With the help of a figure, could you explain the problem that occurred because of introducing a tombstone to mark the deleted cell?
         
 ![Hash Tables drawio](https://github.com/user-attachments/assets/8c961b2c-c942-4861-91e5-76463728e1e7)
+
+
+https://www.youtube.com/watch?v=zO8bH-NN3Xc

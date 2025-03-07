@@ -45,4 +45,27 @@ Python:
       print(f"Element {search_element} found in the array")
     else:
       print(f"Element {search_element} not found in the array")
+
+Write a code generate hash value of your name:
+  
+    #include <iostream>
+    #include <string>  
+    #include <functional>
+
+    int main()
+    {
+    std::string name;
+    std::cout << "Enter your name: ";
+    std::getline(std::cin, name);  
+    
+    std::hash<std::string> hasher;
+        size_t hashValue = hasher(name);
         
+        std::cout << "The Hash Value of your name is: " << hashValue << std::endl;
+
+    return 0;
+    }
+
+With the help of a figure, explain the problem that occured due to introducing a tombstone to mark the deleted cell.
+        
+![Hash Tables drawio](https://github.com/user-attachments/assets/8c961b2c-c942-4861-91e5-76463728e1e7)
